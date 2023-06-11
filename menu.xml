@@ -2,24 +2,24 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".TaomlarOynasi">
+    tools:context=".MainActivity">
 
     <item
         android:id="@+id/item1"
         android:icon="@drawable/home"
-        android:title="Bosh sahifa"
+        android:title="Home"
         app:showAsAction="always"
         />
     <item
         android:id="@+id/item2"
-        android:title="Bosh haqida"
+        android:title="About app"
         app:showAsAction="never"
         />
 
     <item
         android:id="@+id/item3"
-        android:title="Chiqish"
-        app:showAsAction="always"
+        android:title="Exit"
+        app:showAsAction="never"
         />
 
 </menu>
