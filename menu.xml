@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TaomlarOynasi">
+
+    <item
+        android:id="@+id/item1"
+        android:icon="@drawable/home"
+        android:title="Bosh sahifa"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/item2"
+        android:title="Bosh haqida"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/item3"
+        android:title="Chiqish"
+        app:showAsAction="always"
+        />
+
+</menu>
